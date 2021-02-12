@@ -1,0 +1,198 @@
+label {
+  display: inline-block;
+  width: 100px;
+  text-align: right;
+}
+
+input {
+  display: inline-block;
+}
+
+body {
+  /* background-color: #f8f8f8; */
+  /* padding-left: 10px;
+  font-family: "Gill Sans MT", "Gill Sans", "Arial", sans-serif;
+  font-size: 16px; */
+}
+
+h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+td {
+  /* vertical-align: top; */
+}
+
+ul {
+  margin-top: 10px;
+}
+
+#main {
+  border-collapse: collapse;
+  /* box-shadow: 0px 0px 15px 5px #000000;
+  border-radius: 20px; */
+  /* max-width: 1250px; */
+  /* margin: 10px 10px 10px 10px; */
+}
+
+#rules {
+  padding-left: 15px;
+}
+input {
+  /* margin: 0.5em 0 !important;
+  max-width: 177px !important; */
+}
+#rules {
+  /* vertical-align: top;
+  max-width: 177px !important;
+  padding: 0 !important;
+  margin: 0 !important; */
+}
+table {
+  margin: auto;
+}
+
+#rules,
+#rules_paragraph,
+#rules_list {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+  overflow-wrap: break-word !important;
+  word-wrap: break-word;
+}
+#player-info {
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+#player-info th {
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: #6495ed;
+  color: #fffaf0;
+  border-bottom: 1px solid black;
+}
+
+#player-info td {
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
+}
+
+#button {
+  position: fixed;
+  top: 150px;
+  right: 24px;
+  width: 177px;
+  box-shadow: inset 0px 1px 0px 0px #bee2f9;
+  background: linear-gradient(to bottom, #63b8ee 5%, #468ccf 100%);
+  background-color: #63b8ee;
+  border-radius: 6px;
+  border: 1px solid #3866a3;
+  display: inline-block;
+  cursor: pointer;
+  color: #14396a;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #7cacde;
+}
+#button:hover {
+  background: linear-gradient(to bottom, #468ccf 5%, #63b8ee 100%);
+  background-color: #468ccf;
+}
+#button:active {
+  /* position: relative;
+  top: 1px; */
+}
+
+/*modal styles*/
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 40vw;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes animatetop {
+  from {
+    top: 300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+/* The Close Button */
+.close {
+  color: red;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background: linear-gradient(to bottom, #63b8ee 5%, #468ccf 100%);
+  background-color: #63b8ee;
+  color: white;
+}
+
+.modal-body {
+  padding: 2px 16px;
+}
+
+.modal-footer {
+  padding: 2px 16px;
+  background: linear-gradient(to bottom, #63b8ee 5%, #468ccf 100%);
+  background-color: #63b8ee;
+  color: white;
+}
